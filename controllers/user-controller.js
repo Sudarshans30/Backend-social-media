@@ -1,6 +1,8 @@
-const { User } = require('../models');
+const { User, Thought } = require('../models');
+// const { Thought} = require('../models');
 
-const userController = {
+module.exports = {
+ 
   getUsers(req, res) {
     User.find()
       .select('-__v')
@@ -29,6 +31,12 @@ const userController = {
         res.status(500).json(err);
       });
   },
+// create a new user
+createUser(req, res) {
+  User.create(req.body)
+    .then((user) => res.json(user))
+    .catch((err) => res.status(500).json(err));
+},
 
   updateUser(req, res) {
     User.findOneAndUpdate(
@@ -54,6 +62,21 @@ const userController = {
         res.status(500).json(err);
       });
   },
+
+  deleteUser(req, res) {
+    User.findOneAndDelete({ _id: req.params.userId })
+      .then((dbUserData) => {
+        if (!dbUserData) {
+          return res.status(404).json({ message: 'No user with this id' });
+        }
+        res.json(dbUserData);
+      })
+      .catch((err) => {
+        console.log(err);
+        res.status(500).json(err);
+      });
+  },
+
 
   addFriend(req, res) {
     User.findOneAndUpdate(
@@ -92,4 +115,3 @@ const userController = {
   },
 };
 
-module.exports = userController;
