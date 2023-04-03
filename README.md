@@ -9,7 +9,7 @@ This repo is a backend of a social media app, where users can share their though
 * [Requirements](#Requirements)
 * [Installation](#Installation)
 * [Screenshots](#Screenshot)
-* [Demo Video](#Demo Video)
+* [Demonstration](#Demonstration)
 * [License](#License)
 
 
@@ -30,7 +30,7 @@ This repo is a backend of a social media app, where users can share their though
 
 
 
-## Demo Video
+## Demonstration
 
 
 ## License
