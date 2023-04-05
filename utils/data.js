@@ -1,16 +1,17 @@
 const dbUserData = [
     {
-        username: 'john doe',
-        email: 'johndoe@gmail.com',
-        thoughts: [],
-        friends: []
+      username: 'john_doe',
+      email: 'john_doe@example.com',
+      thoughts: [],
+      friends: []
     },
     {
-        username: 'steve Smith',
-        email: 'stevesmith@yahoo.com',
-        thoughts: [],
-        friends: []
-    },
-];
-
-module.exports = dbUserData;
+      username: 'jane_smith',
+      email: 'jane_smith@example.com',
+      thoughts: [],
+      friends: []
+    }
+  ];
+  
+  
+  module.exports = dbUserData;
