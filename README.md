@@ -8,7 +8,6 @@ This repo is a backend of a social media app, where users can share their though
 
 * [Requirements](#Requirements)
 * [Installation](#Installation)
-* [Screenshots](#Screenshot)
 * [Demonstration](#Demonstration)
 * [License](#License)
 
@@ -24,17 +23,12 @@ This repo is a backend of a social media app, where users can share their though
 * Install the required packages using npm install.
 * Start the server using npm start.
 
-## Screenshots
-
-<img width="1236" alt="Screenshot 2023-04-04 at 4 37 13 pm" src="https://user-images.githubusercontent.com/117637113/229995280-7caa60b8-7422-4fe7-90ca-da7718f56d48.png">
-
 
 
 
 ## Demonstration
 [
-](https://drive.google.com/file/d/17NZOpzAnTndqBFLdg0YEY-P3TyY7vX_Y/view)
-## License
+](https://drive.google.com/file/d/17NZOpzAnTndqBFLdg0YEY-P3TyY7vX_Y/view)## License
 
 MIT License
 
