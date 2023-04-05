@@ -27,8 +27,11 @@ This repo is a backend of a social media app, where users can share their though
 
 
 ## Demonstration
-[
-](https://drive.google.com/file/d/17NZOpzAnTndqBFLdg0YEY-P3TyY7vX_Y/view)
+
+
+
+
+https://user-images.githubusercontent.com/117637113/230005641-1ac8a7d6-0640-4502-987c-6240eaebe9d5.mp4
 
 
 ## License
